@@ -386,21 +386,38 @@ function App() {
             <a href="https://www.gov.br/cnpq/pt-br" target="_blank" rel="noreferrer"><span>03</span><div><strong>CNPq</strong><small>Informações sobre fomento e formação científica no Brasil</small></div><MoveUpRight size={17}/></a>
             <a href="https://www.gov.br/capes/pt-br" target="_blank" rel="noreferrer"><span>04</span><div><strong>CAPES</strong><small>Bolsas e apoio à pós-graduação</small></div><MoveUpRight size={17}/></a>
           </div>
-        <Reveal className="references-copy">
-          {/* Conteúdo das fontes permanece aqui */}
+        
+<Reveal className="references-copy">
+  <h2>Ciência boa também é<br /><em>ciência verificável.</em></h2>
+  <p>Este material é uma introdução resumida. Para aprofundar, consulte as fontes institucionais abaixo e confira os detalhes metodológicos e históricos.</p>
+  <div className="reference-links">
+    <a href="https://www.nature.com/articles/s41591-020-0820-9" target="_blank" rel="noreferrer"><span>01</span><div><strong>Nature Medicine</strong><small>Genomic characterisation of the 2019 novel coronavirus in the first COVID-19 patient in Brazil</small></div><MoveUpRight size={17}/></a>
+    <a href="https://www.butantan.gov.br/" target="_blank" rel="noreferrer"><span>02</span><div><strong>Instituto Butantan</strong><small>Conteúdos sobre ciência, vacinas e saúde pública</small></div><MoveUpRight size={17}/></a>
+    <a href="https://www.gov.br/cnpq/pt-br" target="_blank" rel="noreferrer"><span>03</span><div><strong>CNPq</strong><small>Informações sobre fomento e formação científica no Brasil</small></div><MoveUpRight size={17}/></a>
+    <a href="https://www.gov.br/capes/pt-br" target="_blank" rel="noreferrer"><span>04</span><div><strong>CAPES</strong><small>Bolsas e apoio à pós-graduação</small></div><MoveUpRight size={17}/></a>
+  </div>
+</Reveal>
 
-          <div className="feedback-area">
-            {/* Código completo do feedback aqui */}
-          </div>
+<div className="feedback-area">
+  <p>VISITOU NOSSA FEIRA?</p>
+  <h3>Queremos saber sua opinião.</h3>
+  <p>Sua participação ajuda a levar a ciência ainda mais longe.</p>
+  <a
+    className="feedback-button"
+    href="https://docs.google.com/forms/d/e/1FAIpQLSc7i_tEt5XFx3Zbxz0wf4tFYPqgTIw_Y_Xokq2kBC0gl25AdA/viewform"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    ⭐ Deixe seu feedback <span aria-hidden="true">↗</span>
+  </a>
+</div>
 
-          <footer className="footer footer-redesign">
-            {/* Rodapé original permanece aqui */}
-          </footer>
-        <footer className="footer footer-redesign">
-          <div className="footer-topline"><span>CIÊNCIA EM MOVIMENTO</span><span>FEIRA DE CIÊNCIAS • 2026</span></div>
-          <div className="footer-credit">Israel dos Santos Sales · Turma 2J</div>
-          <div className="footer-bottomline"><span>CONHECIMENTO É REVOLUÇÃO.</span><a href="#inicio">VOLTAR AO TOPO ↑</a></div>
-        </footer>
+<footer className="footer footer-redesign">
+  <div className="footer-topline"><span>CIÊNCIA EM MOVIMENTO</span><span>FEIRA DE CIÊNCIAS • 2026</span></div>
+  <div className="footer-credit">Israel dos Santos Sales · Turma 2J</div>
+  <div className="footer-bottomline"><span>CONHECIMENTO É REVOLUÇÃO.</span><a href="#inicio">VOLTAR AO TOPO ↑</a></div>
+</footer>
+
       </section>
     </motion.main>
   );

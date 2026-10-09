@@ -386,7 +386,16 @@ function App() {
             <a href="https://www.gov.br/cnpq/pt-br" target="_blank" rel="noreferrer"><span>03</span><div><strong>CNPq</strong><small>Informações sobre fomento e formação científica no Brasil</small></div><MoveUpRight size={17}/></a>
             <a href="https://www.gov.br/capes/pt-br" target="_blank" rel="noreferrer"><span>04</span><div><strong>CAPES</strong><small>Bolsas e apoio à pós-graduação</small></div><MoveUpRight size={17}/></a>
           </div>
-        </Reveal>
+        <Reveal className="references-copy">
+          {/* Conteúdo das fontes permanece aqui */}
+
+          <div className="feedback-area">
+            {/* Código completo do feedback aqui */}
+          </div>
+
+          <footer className="footer footer-redesign">
+            {/* Rodapé original permanece aqui */}
+          </footer>
         <footer className="footer footer-redesign">
           <div className="footer-topline"><span>CIÊNCIA EM MOVIMENTO</span><span>FEIRA DE CIÊNCIAS • 2026</span></div>
           <div className="footer-credit">Israel dos Santos Sales · Turma 2J</div>
